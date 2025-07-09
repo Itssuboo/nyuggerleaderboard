@@ -1,0 +1,4 @@
+name: DiscordLeaderboard
+version: 1.0
+main: com.nyuggersmp.discordleaderboard.DiscordLeaderboard
+depend: [PlaceholderAPI]
