@@ -4,7 +4,7 @@ echo "NyuggerLeaderboard GitHub feltöltő script indítása..."
 
 # Git init, repo hozzáadás
 git init
-git remote add origin https://github.com/BotondSubo/discordplanleaderboard.git
+git remote add origin https://github.com/Itssuboo/nyuggerleaderboard.git
 
 # Fájlok hozzáadása és commitolása
 git add .
