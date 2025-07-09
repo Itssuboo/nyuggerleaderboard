@@ -1,0 +1,7 @@
+bot:
+  enabled: true
+  token: "YOUR_DISCORD_BOT_TOKEN"
+  channels:
+    info: "INFO_CHANNEL_ID"
+    topplaytime: "TOP_PLAYTIME_CHANNEL_ID"
+    misc: "MISC_STATS_CHANNEL_ID"

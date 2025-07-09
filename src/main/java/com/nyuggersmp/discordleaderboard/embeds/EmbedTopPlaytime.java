@@ -13,9 +13,10 @@ public class EmbedTopPlaytime {
         StringBuilder times = new StringBuilder();
 
         for (int i = 1; i <= 10; i++) {
-            names.append(papi("%PlayTimes_topname").append(i).append("%\n");
-            times.append(papi("%PlayTimes_toptime").append(i).append("%\n");
+            names.append(papi("%PlayTimes_topname" + i + "%")).append("\n");
+            times.append(papi("%PlayTimes_toptime" + i + "%")).append("\n");
         }
+
 
         EmbedBuilder embed = new EmbedBuilder()
                 .setAuthor("NyuggerSMP")
